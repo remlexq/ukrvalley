@@ -1,0 +1,130 @@
+{
+    "Format": "2.4.0",
+    "ConfigSchema": {
+        "Grafika": {
+            "AllowValues": "true, false",
+            "Default": true
+        }
+    },
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AdditionalLanguages",
+            "Entries": {
+                "remlexq.ukrvalley": {
+                    "ID": "remlexq.ukrvalley",
+                    "LanguageCode": "uk",
+                    "ButtonTexture": "{{InternalAssetKey: assets/Button}}",
+                    "UseLatinFont": true,
+					"FontFile": "{{InternalAssetKey: assets/Fonts/Ukrainian.fnt}}",
+					"FontPixelZoom": 1,	
+					"UseGenderedCharacterTranslations": true,
+                    "NumberComma": ".",
+                    "TimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockTimeFormat": "[HOURS_24_00]:[MINUTES]",
+                    "ClockDateFormat": "[DAY_OF_WEEK]. [DAY_OF_MONTH]"
+                }
+            }
+        },	
+		
+		{
+            "Action": "Load",
+            "Target": "Fonts/Ukrainian_0",
+            "FromFile": "assets/{{Target}}.png"
+        },
+		
+		{
+            "LogName": "Original Fonts",
+            "Action": "Load",
+            "Target": "Fonts/SmallFont, Fonts/SpriteFont1",
+            "FromFile": "assets/{{Target}}.xnb",
+			"Priority": "High",
+            "When": { "Language": "uk" }
+        },	
+
+        {
+            "LogName": "Loose Sprites",
+            "Action": "Load",
+            "Target": "LooseSprites/Billboard, LooseSprites/ControllerMaps, LooseSprites/CraneGame, LooseSprites/Cursors, LooseSprites/JunimoNote, LooseSprites/skillTitles, LooseSprites/raccoon_bundle_menu",
+            "FromFile": "assets/{{Target}}.png",
+			"Priority": "High",
+            "When": { "Language": "uk", "Grafika": true }
+        },
+
+        {
+            "LogName": "Maps",
+            "Action": "Load",
+            "Target": "Maps/bathhouse_tiles, Maps/coopTiles, Maps/DesertTiles, Maps/fall_beach, Maps/fall_outdoorsTileSheet, Maps/fall_town, Maps/Festivals, Maps/spring_beach, Maps/spring_outdoorsTileSheet, Maps/spring_town, Maps/summer_beach, Maps/summer_outdoorsTileSheet, Maps/summer_town, Maps/TownIndoors, Maps/townInterior, Maps/winter_beach, Maps/winter_outdoorsTileSheet, Maps/winter_town",
+            "FromFile": "assets/{{Target}}.png",
+			"Priority": "High",
+            "When": { "Language": "uk", "Grafika": true },
+			"Update": "OnLocationChange"
+        },
+				
+        {
+            "LogName": "Objects",
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/{{Target}}.png",
+			"FromArea": { "X": 272, "Y": 529, "Width": 16, "Height": 14 },
+			"ToArea": { "X": 272, "Y": 529, "Width": 16, "Height": 14 },
+            "When": { "Language": "uk", "Grafika": true }
+        },
+		
+		{
+            "LogName": "Objects", 
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/{{Target}}.png",
+			"FromArea": { "X": 67, "Y": 288, "Width": 10, "Height": 15 },
+			"ToArea": { "X": 67, "Y": 288, "Width": 10, "Height": 15 },
+            "When": { "Language": "uk", "Grafika": true }
+        },	
+		
+		{
+            "LogName": "Objects", 
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "assets/{{Target}}.png",
+			"FromArea": { "X": 96, "Y": 288, "Width": 15, "Height": 16 },
+			"ToArea": { "X": 96, "Y": 288, "Width": 15, "Height": 16 },
+            "When": { "Language": "uk", "Grafika": true }
+        },	
+
+        {
+            "LogName": "Various Data",
+            "Action": "Load",
+            "Target": "Data/Achievements, Data/Bundles, Data/Boots, Data/EngagementDialogue, Data/Monsters, Data/PaintData, Data/Quests, Data/SecretNotes, Data/NPCGiftTastes, Data/hats, Data/ExtraDialogue",
+            "FromFile": "assets/{{Target}}.json",
+			"Priority": "High",
+            "When": { "Language": "uk" }
+        },
+		
+        {
+            "LogName": "Minigames",
+            "Action": "Load",
+            "Target": "Minigames/Intro, Minigames/jojacorps, Minigames/TitleButtons, Minigames/Xb1ProfileButton",
+            "FromFile": "assets/{{Target}}.png",
+			"Priority": "High",
+            "When": { "Language": "uk", "Grafika": true }
+        },
+
+		  {
+            "LogName": "Schedule Strings",
+            "Action": "Load",
+            "Target": "Strings/schedules/Abigail, Strings/schedules/Alex, Strings/schedules/Sandy, Strings/schedules/Caroline, Strings/schedules/Clint, Strings/schedules/Demetrius, Strings/schedules/Elliott, Strings/schedules/Emily, Strings/schedules/Evelyn, Strings/schedules/George, Strings/schedules/Gus, Strings/schedules/Haley, Strings/schedules/Harvey, Strings/schedules/Jas, Strings/schedules/Jodi, Strings/schedules/Leah, Strings/schedules/Lewis, Strings/schedules/Linus, Strings/schedules/Marnie, Strings/schedules/Maru, Strings/schedules/Pam, Strings/schedules/Penny, Strings/schedules/Pierre, Strings/schedules/Robin, Strings/schedules/Sam, Strings/schedules/Sebastian, Strings/schedules/Shane, Strings/schedules/Vincent, Strings/schedules/Willy, Strings/schedules/Leo",
+            "FromFile": "assets/{{Target}}.json",
+			"Priority": "High",
+            "When": { "Language": "uk" }
+        },
+		
+        {
+            "LogName": "Other Strings",
+            "Action": "Load",
+            "Target": "Strings/UI, Strings/Weapons, Strings/1_6_Strings, Strings/WorldMap, Strings/Tools, Strings/animationDescriptions, Strings/NPCNames, Strings/FarmAnimals, Strings/Buildings, Strings/BundleNames, Strings/Pants, Strings/EnchantmentNames, Strings/Events",
+            "FromFile": "assets/{{Target}}.json",
+			"Priority": "High",
+            "When": { "Language": "uk" }
+        }
+    ]
+}
