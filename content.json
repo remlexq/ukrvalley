@@ -94,7 +94,7 @@
         {
             "LogName": "Various Data",
             "Action": "Load",
-            "Target": "Data/Achievements, Data/Bundles, Data/Boots, Data/EngagementDialogue, Data/Monsters, Data/PaintData, Data/Quests, Data/SecretNotes, Data/NPCGiftTastes, Data/hats, Data/ExtraDialogue",
+            "Target": "Data/Achievements, Data/Bundles, Data/Boots, Data/EngagementDialogue, Data/Monsters, Data/PaintData, Data/Quests, Data/SecretNotes, Data/NPCGiftTastes, Data/hats, Data/ExtraDialogue, Data/mail",
             "FromFile": "assets/{{Target}}.json",
 			"Priority": "High",
             "When": { "Language": "uk" }
