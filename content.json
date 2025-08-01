@@ -92,6 +92,15 @@
         },	
 
         {
+            "LogName": "Festivals",
+            "Action": "Load",
+            "Target": "Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/FestivalDates, Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11",
+            "FromFile": "assets/{{Target}}.json",
+			"Priority": "High",
+            "When": { "Language": "uk" }
+        },
+
+        {
             "LogName": "Various Data",
             "Action": "Load",
             "Target": "Data/Achievements, Data/Bundles, Data/Boots, Data/EngagementDialogue, Data/Monsters, Data/PaintData, Data/Quests, Data/SecretNotes, Data/NPCGiftTastes, Data/hats, Data/ExtraDialogue, Data/mail",
