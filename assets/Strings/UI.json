@@ -166,7 +166,7 @@
 	"LetterViewer_MoneyIncluded": "$ {0} золота в додатку",
 	"LetterViewer_LearnedRecipe": "Новий рецепт ({0}):",
 	"LetterViewer_LearnedRecipeName": "«{0}»",
-	"LevelUp_Title": "Рівент {0}: {1}",
+	"LevelUp_Title": "Рівень {0}: {1}",
 	"LevelUp_ExtraInfo_Farming1": "+1 Ефективність лійки",
 	"LevelUp_ExtraInfo_Farming2": "+1 Ефективність мотики",
 	"LevelUp_ExtraInfo_Mining": "+1 Ефективність кирки",
