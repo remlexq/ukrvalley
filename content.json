@@ -130,7 +130,7 @@
         {
             "LogName": "Other Strings",
             "Action": "Load",
-            "Target": "Strings/UI, Strings/Weapons, Strings/1_6_Strings, Strings/WorldMap, Strings/Tools, Strings/animationDescriptions, Strings/NPCNames, Strings/FarmAnimals, Strings/Buildings, Strings/BundleNames, Strings/Pants, Strings/EnchantmentNames, Strings/Events, Strings/StringsFromCSFiles",
+            "Target": "Strings/UI, Strings/Weapons, Strings/1_6_Strings, Strings/WorldMap, Strings/Tools, Strings/animationDescriptions, Strings/NPCNames, Strings/FarmAnimals, Strings/Buildings, Strings/BundleNames, Strings/Pants, Strings/EnchantmentNames, Strings/Events, Strings/StringsFromCSFiles, Strings/Characters",
             "FromFile": "assets/{{Target}}.json",
 			"Priority": "High",
             "When": { "Language": "uk" }
