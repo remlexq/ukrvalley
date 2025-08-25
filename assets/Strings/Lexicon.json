@@ -1,0 +1,22 @@
+{
+	"RandomNegativeItemNoun": "мотлох#відходи#дрянь#непотріб#сміття",
+	"RandomPositiveAdjective_Child": "крутий#хороший#класний#прекрасний#милий#розумний#чудовий",
+	"RandomPositiveAdjective_AdultMale": "цікавий#чудовий#хороший#прекрасний#милий#приголомшливий",
+	"RandomPositiveAdjective_AdultFemale": "чарівна#дивуюча#приємна#фантастична#неймовірна#гарна#захоплююча#чудова",
+	"RandomPositiveAdjective_PlaceOrEvent": "чарівна#дивуюча#приємна#фантастична#неймовірна#гарна#захоплююча#чудова",
+	"RandomDeliciousAdjective": "надсмачно#смачно#чудово#добре#ситно#відмінно#апетитно#чарівно",
+	"RandomDeliciousAdjective_Child": "ням",
+	"RandomNegativeFoodAdjective_Child": "фу",
+	"RandomNegativeFoodAdjective_Polite": "... цікво#... незвично#... унікально#... нестандартно",
+	"RandomNegativeFoodAdjective": "противно#мерзенно#огидно#жалко#жалюгідно#нудотно#жахливо#гидко#мерзотно#премерзко#жахливо#паскудно",
+	"RandomSlightlyPositiveFoodAdjective": "пристойно#добре#їстивно",
+	"ChildTerm_Male": "хлопчик",
+	"ChildTerm_Female": "дівчинка",
+	"Pronoun_Male": "його",
+	"Pronoun_Female": "її",
+	"QuestionDialogue_Yes": "Так",
+	"QuestionDialogue_No": "Ні",
+	"GenericPlayerTerm": "фермер",
+	"Possessive_Pronoun_Male": "його",
+	"Possessive_Pronoun_Female": "її"
+}
